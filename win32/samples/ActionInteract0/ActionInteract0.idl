@@ -1,0 +1,29 @@
+// ActionInteract0.idl : type library source for ActionInteract0.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (ActionInteract0.tlb).
+
+[ uuid(66B42F93-D4A4-40C1-B4A8-9E88C72B231F), version(1.0) ]
+library ActionInteract0
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CActionInteract0Doc
+	
+	[ uuid(99B35469-4B32-4F5B-BE3C-7AAC96E3BA78) ]
+	dispinterface IActionInteract0
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CActionInteract0Doc
+	
+	[ uuid(F7A5A312-23EB-43BF-AE7B-B8858D8ED07B) ]
+	coclass ActionInteract0
+	{
+		[default] dispinterface IActionInteract0;
+	};
+};
